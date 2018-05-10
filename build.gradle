@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+group = 'com.tefuna.common'
+version = '1.0.0'
+description = 'tfn-common'
+
+dependencies {
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version:'1.7.25'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version:'1.2.3'
+}
