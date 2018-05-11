@@ -2,7 +2,7 @@ apply plugin: 'java-library'
 
 group = 'com.tefuna.common'
 version = '1.0.0'
-description = 'tfn-common'
+description = 'tn-common'
 
 dependencies {
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'

@@ -11,4 +11,8 @@ public interface ICode {
 
     String getName();
 
+    default boolean isEquals(String code) {
+        return this.getCode().equals(code);
+    }
+
 }
